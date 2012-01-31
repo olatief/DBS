@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE boost_serialization>
+<boost_serialization signature="serialization::archive" version="9">
+<chipConfigPtr class_id="0" tracking_level="1" version="0" object_id="_0">
+	<name>MyName</name>
+	<partName>EFM32TG210F32</partName>
+	<moduleConfigs class_id="1" tracking_level="0" version="0">
+		<count>27</count>
+		<item_version>0</item_version>
+		<item class_id="2" tracking_level="1" version="0" object_id="_1">
+			<uniqueModuleId>EFM32TG210F32@ACMP0</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault class_id="3" tracking_level="0" version="0">
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore class_id="4" tracking_level="0" version="0">
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_2">
+			<uniqueModuleId>EFM32TG210F32@ACMP1</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_3">
+			<uniqueModuleId>EFM32TG210F32@ADC0</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_4">
+			<uniqueModuleId>EFM32TG210F32@AES</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_5">
+			<uniqueModuleId>EFM32TG210F32@CMU</uniqueModuleId>
+			<enabled>1</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_6">
+			<uniqueModuleId>EFM32TG210F32@DAC0</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_7">
+			<uniqueModuleId>EFM32TG210F32@DBG</uniqueModuleId>
+			<enabled>1</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_8">
+			<uniqueModuleId>EFM32TG210F32@DEC</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_9">
+			<uniqueModuleId>EFM32TG210F32@DMA</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_10">
+			<uniqueModuleId>EFM32TG210F32@HFXO</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_11">
+			<uniqueModuleId>EFM32TG210F32@I2C0</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_12">
+			<uniqueModuleId>EFM32TG210F32@LESENSE</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_13">
+			<uniqueModuleId>EFM32TG210F32@LETIMER0</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_14">
+			<uniqueModuleId>EFM32TG210F32@LEUART0</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_15">
+			<uniqueModuleId>EFM32TG210F32@LFXO</uniqueModuleId>
+			<enabled>1</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_16">
+			<uniqueModuleId>EFM32TG210F32@OPAMP0</uniqueModuleId>
+			<enabled>1</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>OUT0</item>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_17">
+			<uniqueModuleId>EFM32TG210F32@OPAMP1</uniqueModuleId>
+			<enabled>1</enabled>
+			<locationValue>3</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>3</count>
+				<item_version>0</item_version>
+				<item>N1</item>
+				<item>OUT1ALT</item>
+				<item>P1</item>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_18">
+			<uniqueModuleId>EFM32TG210F32@OPAMP2</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_19">
+			<uniqueModuleId>EFM32TG210F32@PCNT0</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_20">
+			<uniqueModuleId>EFM32TG210F32@PRS</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_21">
+			<uniqueModuleId>EFM32TG210F32@RTC</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_22">
+			<uniqueModuleId>EFM32TG210F32@TIMER0</uniqueModuleId>
+			<enabled>1</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>CC2</item>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_23">
+			<uniqueModuleId>EFM32TG210F32@TIMER1</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>4</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_24">
+			<uniqueModuleId>EFM32TG210F32@USART0</uniqueModuleId>
+			<enabled>1</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_25">
+			<uniqueModuleId>EFM32TG210F32@USART1</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_26">
+			<uniqueModuleId>EFM32TG210F32@VCMP</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+		<item class_id_reference="2" object_id="_27">
+			<uniqueModuleId>EFM32TG210F32@WDOG</uniqueModuleId>
+			<enabled>0</enabled>
+			<locationValue>0</locationValue>
+			<signalsWithEnableInvertedFromDefault>
+				<count>0</count>
+				<item_version>0</item_version>
+			</signalsWithEnableInvertedFromDefault>
+			<customKeyValueStore>
+				<count>0</count>
+				<item_version>0</item_version>
+			</customKeyValueStore>
+		</item>
+	</moduleConfigs>
+	<pinConfigs class_id="5" tracking_level="0" version="0">
+		<count>33</count>
+		<item_version>0</item_version>
+		<item class_id="6" tracking_level="1" version="0" object_id="_28">
+			<uniquePinId>EFM32TG210F32@QFN32@0</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_29">
+			<uniquePinId>EFM32TG210F32@QFN32@1</uniquePinId>
+			<pinConfigStateKey>4-2</pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_30">
+			<uniquePinId>EFM32TG210F32@QFN32@2</uniquePinId>
+			<pinConfigStateKey>4-2</pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_31">
+			<uniquePinId>EFM32TG210F32@QFN32@3</uniquePinId>
+			<pinConfigStateKey>1-0</pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_32">
+			<uniquePinId>EFM32TG210F32@QFN32@4</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_33">
+			<uniquePinId>EFM32TG210F32@QFN32@5</uniquePinId>
+			<pinConfigStateKey>4-2</pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_34">
+			<uniquePinId>EFM32TG210F32@QFN32@6</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_35">
+			<uniquePinId>EFM32TG210F32@QFN32@7</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_36">
+			<uniquePinId>EFM32TG210F32@QFN32@8</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_37">
+			<uniquePinId>EFM32TG210F32@QFN32@9</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_38">
+			<uniquePinId>EFM32TG210F32@QFN32@10</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_39">
+			<uniquePinId>EFM32TG210F32@QFN32@11</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_40">
+			<uniquePinId>EFM32TG210F32@QFN32@12</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_41">
+			<uniquePinId>EFM32TG210F32@QFN32@13</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_42">
+			<uniquePinId>EFM32TG210F32@QFN32@14</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_43">
+			<uniquePinId>EFM32TG210F32@QFN32@15</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_44">
+			<uniquePinId>EFM32TG210F32@QFN32@16</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_45">
+			<uniquePinId>EFM32TG210F32@QFN32@17</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_46">
+			<uniquePinId>EFM32TG210F32@QFN32@18</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_47">
+			<uniquePinId>EFM32TG210F32@QFN32@19</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_48">
+			<uniquePinId>EFM32TG210F32@QFN32@20</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_49">
+			<uniquePinId>EFM32TG210F32@QFN32@21</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_50">
+			<uniquePinId>EFM32TG210F32@QFN32@22</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_51">
+			<uniquePinId>EFM32TG210F32@QFN32@23</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_52">
+			<uniquePinId>EFM32TG210F32@QFN32@24</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_53">
+			<uniquePinId>EFM32TG210F32@QFN32@25</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_54">
+			<uniquePinId>EFM32TG210F32@QFN32@26</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_55">
+			<uniquePinId>EFM32TG210F32@QFN32@27</uniquePinId>
+			<pinConfigStateKey>1-0</pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_56">
+			<uniquePinId>EFM32TG210F32@QFN32@28</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_57">
+			<uniquePinId>EFM32TG210F32@QFN32@29</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_58">
+			<uniquePinId>EFM32TG210F32@QFN32@30</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_59">
+			<uniquePinId>EFM32TG210F32@QFN32@31</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+		<item class_id_reference="6" object_id="_60">
+			<uniquePinId>EFM32TG210F32@QFN32@32</uniquePinId>
+			<pinConfigStateKey></pinConfigStateKey>
+		</item>
+	</pinConfigs>
+</chipConfigPtr>

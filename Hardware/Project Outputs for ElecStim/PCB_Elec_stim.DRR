@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: PCB_Elec_stim.PcbDoc   1/13/2012  12:17:12 PM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PCB_Elec_stim.TXT
+EIA File   : PCB_Elec_stim.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          16               1.68 Inch (42.73 mm)
+---------------------------------------------------------------------------
+Totals                                            16               1.68 Inch (42.73 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

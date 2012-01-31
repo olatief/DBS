@@ -1,0 +1,471 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.21.1.52794/W32 for ARM              26/Jan/2012  11:33:25 #
+# Copyright 2007-2011 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM       #
+#                    stim_only\M3 STIM\blink\Debug\Exe\blink.out              #
+#    Map file     =  C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM       #
+#                    stim_only\M3 STIM\blink\Debug\List\blink.map             #
+#    Command line =  "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\core_cm3.o"            #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_adc.o"           #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_assert.o"        #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_cmu.o"           #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_dac.o"           #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_dma.o"           #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_emu.o"           #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_gpio.o"          #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_letimer.o"       #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_opamp.o"         #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_system.o"        #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_timer.o"         #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\efm32_usart.o"         #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\hal_nrf.o"             #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\hal_nrf_hw.o"          #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\main.o"                #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\radio.o"               #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\startup_efm32tg.o"     #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\stim.o"                #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\Obj\system_efm32.o"        #
+#                    --redirect _Printf=_PrintfFull --redirect                #
+#                    _Scanf=_ScanfFull -o "C:\Users\Omar\Dropbox\OGS-Closed-L #
+#                    oop\MCU Code\ARM stim_only\M3                            #
+#                    STIM\blink\Debug\Exe\blink.out" --map                    #
+#                    "C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM      #
+#                    stim_only\M3 STIM\blink\Debug\List\blink.map" --config   #
+#                    "C:\Program Files (x86)\IAR Systems\Embedded Workbench   #
+#                    6.0 Kickstart\arm\config\linker\EnergyMicro\EFM32TG210F3 #
+#                    2.icf" --entry __iar_program_start --inline --vfe        #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"P1":  place in [from 0x00000000 to 0x00007fff] { ro };
+"P2":  place in [from 0x20000000 to 0x20000fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0x9c
+  .intvec            ro code  0x00000000    0x9c  startup_efm32tg.o [1]
+                            - 0x0000009c    0x9c
+
+"P1":                                     0x2ebc
+  .text              ro code  0x0000009c   0xaec  efm32_cmu.o [1]
+  .text              ro code  0x00000b88     0x2  efm32_assert.o [1]
+  .text              ro code  0x00000b8a    0x2e  copy_init3.o [4]
+  .text              ro code  0x00000bb8    0xd8  system_efm32.o [1]
+  .text              ro code  0x00000c90    0xf4  efm32_emu.o [1]
+  .text              ro code  0x00000d84   0x6c0  main.o [1]
+  .text              ro code  0x00001444   0x200  efm32_gpio.o [1]
+  .text              ro code  0x00001644    0x70  ABImemcpy.o [4]
+  .text              ro code  0x000016b4   0x414  radio.o [1]
+  .text              ro code  0x00001ac8   0x150  efm32_dac.o [1]
+  .text              ro code  0x00001c18   0x3fc  efm32_opamp.o [1]
+  .text              ro code  0x00002014   0x170  stim.o [1]
+  .text              ro code  0x00002184   0x1b0  efm32_timer.o [1]
+  .text              ro code  0x00002334   0x12c  efm32_letimer.o [1]
+  .text              ro code  0x00002460   0x3f4  hal_nrf.o [1]
+  .text              ro code  0x00002854    0x40  efm32_system.o [1]
+  .text              ro code  0x00002894   0x12e  I64DivMod.o [4]
+  .text              ro code  0x000029c2    0x22  zero_init3.o [4]
+  .text              ro code  0x000029e4    0x18  efm32_usart.o [1]
+  .text              ro code  0x000029fc     0x2  I64DivZer.o [4]
+  .text              ro code  0x00002a00    0xa8  efm32_dma.o [1]
+  .rodata            const    0x00002aa8    0x64  efm32_letimer.o [1]
+  .rodata            const    0x00002b0c    0x60  efm32_cmu.o [1]
+  .rodata            const    0x00002b6c    0x60  efm32_dac.o [1]
+  .rodata            const    0x00002bcc    0x60  efm32_gpio.o [1]
+  .rodata            const    0x00002c2c    0x60  efm32_opamp.o [1]
+  .rodata            const    0x00002c8c    0x60  efm32_system.o [1]
+  .rodata            const    0x00002cec    0x60  efm32_timer.o [1]
+  .text              ro code  0x00002d4c    0x2c  data_init3.o [4]
+  .rodata            const    0x00002d78    0x28  main.o [1]
+  .rodata            const    0x00002da0    0x28  main.o [1]
+  .rodata            const    0x00002dc8    0x28  main.o [1]
+  .iar.init_table    const    0x00002df0    0x24  - Linker created -
+  .text              ro code  0x00002e14    0x16  cmain.o [4]
+  .text              ro code  0x00002e2a     0x8  exit.o [3]
+  .text              ro code  0x00002e34     0xa  cexit.o [4]
+  .text              ro code  0x00002e40     0xc  XXexit.o [4]
+  .rodata            const    0x00002e4c    0x10  main.o [1]
+  .text              ro code  0x00002e5c    0x10  startup_efm32tg.o [1]
+  .rodata            const    0x00002e6c     0xc  main.o [1]
+  .rodata            const    0x00002e78     0xc  main.o [1]
+  .rodata            const    0x00002e84     0xc  main.o [1]
+  .rodata            const    0x00002e90     0xc  main.o [1]
+  .text              ro code  0x00002e9c     0xc  cstartup_M.o [4]
+  .rodata            const    0x00002ea8     0x4  main.o [1]
+  .rodata            const    0x00002eac     0x4  main.o [1]
+  .text              ro code  0x00002eb0     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002eb4     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002eb8     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ebc     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ec0     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ec4     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ec8     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ecc     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ed0     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ed4     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ed8     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002edc     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ee0     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ee4     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ee8     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002eec     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ef0     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ef4     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002ef8     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002efc     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f00     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f04     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f08     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f0c     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f10     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f14     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f18     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f1c     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f20     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f24     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f28     0x4  startup_efm32tg.o [1]
+  .text              ro code  0x00002f2c     0x4  startup_efm32tg.o [1]
+  .rodata            const    0x00002f30     0x0  bwt_init3c.o [4]
+  Initializer bytes  ro data  0x00002f30    0x28  <for P2 s0>
+                            - 0x00002f58  0x2ebc
+
+"P2", part 1 of 3:                          0x28
+  P2 s0                       0x20000000    0x28  <Init block>
+    .data            inited   0x20000000    0x20  stim.o [1]
+    .data            inited   0x20000020     0x4  system_efm32.o [1]
+    .data            inited   0x20000024     0x4  system_efm32.o [1]
+                            - 0x20000028    0x28
+
+"P2", part 2 of 3:                          0x38
+  .bss               zero     0x20000028    0x20  radio.o [1]
+  .bss               zero     0x20000048     0xc  main.o [1]
+  .bss               zero     0x20000054     0x4  system_efm32.o [1]
+  .bss               zero     0x20000058     0x2  efm32_emu.o [1]
+  .bss               zero     0x2000005a     0x1  main.o [1]
+  .bss               zero     0x2000005b     0x1  radio.o [1]
+  .bss               zero     0x2000005c     0x1  radio.o [1]
+  .bss               zero     0x2000005d     0x1  radio.o [1]
+                            - 0x2000005e    0x36
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20000060   0x400  <Block>
+    CSTACK           uninit   0x20000060   0x400  <Block tail>
+                            - 0x20000460   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x36:
+          0x20000028  0x36
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x28:
+          0x00002f30  0x28
+    1 destination range, total size 0x28:
+          0x20000000  0x28
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  ro data  rw data
+    ------             -------  -------  -------
+C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM stim_only\M3 STIM\blink\Debug\Obj: [1]
+    efm32_assert.o           2
+    efm32_cmu.o          2 796       96
+    efm32_dac.o            336       96
+    efm32_dma.o            168
+    efm32_emu.o            244                 2
+    efm32_gpio.o           512       96
+    efm32_letimer.o        300      100
+    efm32_opamp.o        1 020       96
+    efm32_system.o          64       96
+    efm32_timer.o          432       96
+    efm32_usart.o           24
+    hal_nrf.o            1 012
+    main.o               1 728      192       13
+    radio.o              1 044                35
+    startup_efm32tg.o      300
+    stim.o                 368       32       32
+    system_efm32.o         216        8       12
+    --------------------------------------------
+    Total:              10 566      908       94
+
+command line: [2]
+    --------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                   8
+    --------------------------------------------
+    Total:                   8
+
+rt7M_tl.a: [4]
+    ABImemcpy.o            112
+    I64DivMod.o            302
+    I64DivZer.o              2
+    XXexit.o                12
+    bwt_init3c.o
+    cexit.o                 10
+    cmain.o                 22
+    copy_init3.o            46
+    cstartup_M.o            12
+    data_init3.o            44
+    zero_init3.o            34
+    --------------------------------------------
+    Total:                 596
+
+    Gaps                     6
+    Linker created                   36    1 024
+------------------------------------------------
+    Grand Total:        11 176      944    1 118
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x00002e15         Code  Gb  cmain.o [4]
+ACMP0_IRQHandler        0x00002ee9         Code  Wk  startup_efm32tg.o [1]
+ADC0_IRQHandler         0x00002eed         Code  Wk  startup_efm32tg.o [1]
+AES_IRQHandler          0x00002f2d         Code  Wk  startup_efm32tg.o [1]
+BITBAND_Peripheral      0x0000009d    0xe  Code  Lc  efm32_cmu.o [1]
+BITBAND_Peripheral      0x00001ac9    0xe  Code  Lc  efm32_dac.o [1]
+BITBAND_Peripheral      0x00001445    0xe  Code  Lc  efm32_gpio.o [1]
+BusFault_Handler        0x00002ebd         Code  Wk  startup_efm32tg.o [1]
+CHIP_Init               0x00000db3    0x2  Code  Lc  main.o [1]
+CMU_AUXClkGet           0x00000161   0x64  Code  Lc  efm32_cmu.o [1]
+CMU_Calibrate           0x00000279   0x8e  Code  Gb  efm32_cmu.o [1]
+CMU_ClockDivSet         0x00000307  0x1b0  Code  Gb  efm32_cmu.o [1]
+CMU_ClockEnable         0x000004b7   0x92  Code  Gb  efm32_cmu.o [1]
+CMU_ClockFreqGet        0x00000549  0x100  Code  Gb  efm32_cmu.o [1]
+CMU_ClockSelectGet      0x00000649   0xde  Code  Gb  efm32_cmu.o [1]
+CMU_ClockSelectSet      0x00000727  0x1aa  Code  Gb  efm32_cmu.o [1]
+CMU_DBGClkGet           0x000001c5   0x3c  Code  Lc  efm32_cmu.o [1]
+CMU_DivToLog2           0x000000df   0x26  Code  Lc  efm32_cmu.o [1]
+CMU_FlashWaitStateControl
+                        0x00000105   0x5c  Code  Lc  efm32_cmu.o [1]
+CMU_FlashWaitStateMax   0x000000ab   0x34  Code  Lc  efm32_cmu.o [1]
+CMU_HFRCOBandSet        0x000008d1   0xa4  Code  Gb  efm32_cmu.o [1]
+CMU_IRQHandler          0x00002f1d         Code  Wk  startup_efm32tg.o [1]
+CMU_LFClkGet            0x00000201   0x62  Code  Lc  efm32_cmu.o [1]
+CMU_Lock                0x00000c99    0x8  Code  Lc  efm32_emu.o [1]
+CMU_OscillatorEnable    0x0000097d   0xa6  Code  Gb  efm32_cmu.o [1]
+CMU_OscillatorTuningGet
+                        0x00000a2d   0x48  Code  Gb  efm32_cmu.o [1]
+CMU_OscillatorTuningSet
+                        0x00000a91   0x86  Code  Gb  efm32_cmu.o [1]
+CMU_Sync                0x00000263   0x16  Code  Lc  efm32_cmu.o [1]
+CMU_Unlock              0x00000ca1    0xa  Code  Lc  efm32_emu.o [1]
+CSTACK$$Base            0x20000060          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000460          --   Gb  - Linker created -
+DAC0_IRQHandler         0x00002ef1         Code  Wk  startup_efm32tg.o [1]
+DAC_Enable              0x00001ad7   0x42  Code  Gb  efm32_dac.o [1]
+DAC_Init                0x00001b19   0x9c  Code  Gb  efm32_dac.o [1]
+DAC_InitChannel         0x00001bb5   0x52  Code  Gb  efm32_dac.o [1]
+DAC_WriteData           0x00001205    0xc  Code  Gb  main.o [1]
+DAC_setup               0x00001115   0x76  Code  Gb  main.o [1]
+DEBUG_setup             0x00000ddd   0x10  Code  Gb  main.o [1]
+DMA_IRQHandler          0x00002a01   0x96  Code  Gb  efm32_dma.o [1]
+DebugMon_Handler        0x00002ec9         Code  Wk  startup_efm32tg.o [1]
+EMU_EnterEM1            0x00000d9f   0x14  Code  Lc  main.o [1]
+EMU_EnterEM2            0x00000d2d   0x34  Code  Gb  efm32_emu.o [1]
+EMU_Restore             0x00000cab   0x82  Code  Lc  efm32_emu.o [1]
+EMU_UpdateOscConfig     0x00000d61    0xa  Code  Gb  efm32_emu.o [1]
+GPIO_EVEN_IRQHandler    0x000016d7   0x70  Code  Gb  radio.o [1]
+GPIO_IntClear           0x000016cf    0x8  Code  Lc  radio.o [1]
+GPIO_IntConfig          0x00001453   0xa2  Code  Gb  efm32_gpio.o [1]
+GPIO_ODD_IRQHandler     0x00002ef9         Code  Wk  startup_efm32tg.o [1]
+GPIO_PinModeSet         0x000014f5   0xe4  Code  Gb  efm32_gpio.o [1]
+GPIO_PortOutClear       0x000015d9   0x26  Code  Gb  efm32_gpio.o [1]
+GPIO_PortOutSet         0x000015ff   0x26  Code  Gb  efm32_gpio.o [1]
+HardFault_Handler       0x00002eb5         Code  Wk  startup_efm32tg.o [1]
+I2C0_IRQHandler         0x00002ef5         Code  Wk  startup_efm32tg.o [1]
+LCD_IRQHandler          0x00002f25         Code  Wk  startup_efm32tg.o [1]
+LESENSE_IRQHandler      0x00002f09         Code  Wk  startup_efm32tg.o [1]
+LETIMER0_IRQHandler     0x000011f3   0x12  Code  Gb  main.o [1]
+LETIMER_CompareSet      0x00002335   0x4a  Code  Gb  efm32_letimer.o [1]
+LETIMER_Init            0x0000237f   0x96  Code  Gb  efm32_letimer.o [1]
+LETIMER_IntClear        0x00000dd1    0x4  Code  Lc  main.o [1]
+LETIMER_IntEnable       0x00000dd5    0x8  Code  Lc  main.o [1]
+LETIMER_RepeatSet       0x00002415   0x44  Code  Gb  efm32_letimer.o [1]
+LETIMER_setup           0x0000118b   0x68  Code  Gb  main.o [1]
+LEUART0_IRQHandler      0x00002f0d         Code  Wk  startup_efm32tg.o [1]
+MSC_IRQHandler          0x00002f29         Code  Wk  startup_efm32tg.o [1]
+MemManage_Handler       0x00002eb9         Code  Wk  startup_efm32tg.o [1]
+NMI_Handler             0x00002eb1         Code  Wk  startup_efm32tg.o [1]
+NVIC_EnableIRQ          0x00000d85   0x1a  Code  Lc  main.o [1]
+NVIC_EnableIRQ          0x000016b5   0x1a  Code  Lc  radio.o [1]
+OPAMP_Enable            0x00001c19  0x3ea  Code  Gb  efm32_opamp.o [1]
+PCNT0_IRQHandler        0x00002f15         Code  Wk  startup_efm32tg.o [1]
+PendSV_Handler          0x00002ecd         Code  Wk  startup_efm32tg.o [1]
+RADIO_TX                0x00001747   0x56  Code  Gb  radio.o [1]
+RADIO_setup             0x0000179d   0xe2  Code  Gb  radio.o [1]
+RTC_IRQHandler          0x00002f19         Code  Wk  startup_efm32tg.o [1]
+Region$$Table$$Base     0x00002df0          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00002e14          --   Gb  - Linker created -
+Reset_Handler           0x00002e5d         Code  Wk  startup_efm32tg.o [1]
+SB                      0x00002f30         Data  Gb  bwt_init3c.o [4]
+SPI_setup               0x0000187f  0x20e  Code  Gb  radio.o [1]
+SVC_Handler             0x00002ec5         Code  Wk  startup_efm32tg.o [1]
+SYSTEM_GetCalibrationValue
+                        0x00002855   0x36  Code  Gb  efm32_system.o [1]
+SysTick_Handler         0x00002ed1         Code  Wk  startup_efm32tg.o [1]
+SystemCoreClock         0x20000054    0x4  Data  Gb  system_efm32.o [1]
+SystemCoreClockGet      0x00000bb9   0x1a  Code  Gb  system_efm32.o [1]
+SystemCoreClockUpdate   0x00000c91    0x8  Code  Lc  efm32_emu.o [1]
+SystemHFClockGet        0x00000bd3   0x86  Code  Gb  system_efm32.o [1]
+SystemHFXOClock         0x20000020    0x4  Data  Lc  system_efm32.o [1]
+SystemInit              0x00000c59    0x2  Code  Gb  system_efm32.o [1]
+SystemLFXOClock         0x20000024    0x4  Data  Lc  system_efm32.o [1]
+SystemLFXOClockGet      0x00000c5b    0x6  Code  Gb  system_efm32.o [1]
+TIMER0_IRQHandler       0x00000f5b   0x94  Code  Gb  main.o [1]
+TIMER1_IRQHandler       0x00000fef   0x2a  Code  Gb  main.o [1]
+TIMER_CompareBufSet     0x00000db5    0x8  Code  Lc  main.o [1]
+TIMER_CompareBufSet     0x00002015    0x8  Code  Lc  stim.o [1]
+TIMER_Enable            0x00002185   0x2c  Code  Gb  efm32_timer.o [1]
+TIMER_Init              0x000021b1   0xd4  Code  Gb  efm32_timer.o [1]
+TIMER_InitCC            0x00002285   0xa2  Code  Gb  efm32_timer.o [1]
+TIMER_IntClear          0x00000dbd    0x4  Code  Lc  main.o [1]
+TIMER_IntEnable         0x00000dc1    0x8  Code  Lc  main.o [1]
+TIMER_IntGet            0x00000dc9    0x4  Code  Lc  main.o [1]
+TIMER_TopBufSet         0x0000201d    0x4  Code  Lc  stim.o [1]
+TIMER_TopSet            0x00000dcd    0x4  Code  Lc  main.o [1]
+TIMER_setup             0x00001019   0xfc  Code  Gb  main.o [1]
+USART0_RX_IRQHandler    0x00002ee1         Code  Wk  startup_efm32tg.o [1]
+USART0_TX_IRQHandler    0x00002ee5         Code  Wk  startup_efm32tg.o [1]
+USART1_RX_IRQHandler    0x00002f01         Code  Wk  startup_efm32tg.o [1]
+USART1_TX_IRQHandler    0x00002f05         Code  Wk  startup_efm32tg.o [1]
+USART_Rx                0x000029e5    0xc  Code  Gb  efm32_usart.o [1]
+USART_Tx                0x000029f1    0xc  Code  Gb  efm32_usart.o [1]
+UsageFault_Handler      0x00002ec1         Code  Wk  startup_efm32tg.o [1]
+VCMP_IRQHandler         0x00002f21         Code  Wk  startup_efm32tg.o [1]
+__Vectors               0x00000000          --   Gb  startup_efm32tg.o [1]
+__Vectors_End           0x0000009c         Data  Gb  startup_efm32tg.o [1]
+__Vectors_Size {Abs}    0x0000009c          --   Gb  startup_efm32tg.o [1]
+__aeabi_ldiv0           0x000029fd         Code  Gb  I64DivZer.o [4]
+__aeabi_ldivmod         0x00002895         Code  Gb  I64DivMod.o [4]
+__aeabi_memcpy          0x00001645         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy4         0x0000165f         Code  Gb  ABImemcpy.o [4]
+__aeabi_memcpy8         0x0000165f         Code  Gb  ABImemcpy.o [4]
+__aeabi_uldivmod        0x000028a9         Code  Gb  I64DivMod.o [4]
+__cmain                 0x00002e15         Code  Gb  cmain.o [4]
+__exit                  0x00002e41         Code  Gb  XXexit.o [4]
+__iar_copy_init3        0x00000b8b   0x2e  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x00002d4d   0x2c  Code  Gb  data_init3.o [4]
+__iar_program_start     0x00002e9d         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x000029c3   0x22  Code  Gb  zero_init3.o [4]
+__vector_table          0x00000000         Data  Gb  startup_efm32tg.o [1]
+__vector_table_0x1c     0x0000001c         Data  Gb  startup_efm32tg.o [1]
+_call_main              0x00002e21         Code  Gb  cmain.o [4]
+_exit                   0x00002e35         Code  Gb  cexit.o [4]
+_main                   0x00002e27         Code  Gb  cmain.o [4]
+assertEFM               0x00000b89    0x2  Code  Gb  efm32_assert.o [1]
+calcTimerPS             0x00002051    0xa  Code  Gb  stim.o [1]
+calcTimerParams         0x0000205b   0xf4  Code  Gb  stim.o [1]
+calibrateHFRCO          0x00001211   0x86  Code  Gb  main.o [1]
+cmuStatus               0x20000058    0x2  Data  Lc  efm32_emu.o [1]
+currentProg             0x20000048    0xc  Data  Gb  main.o [1]
+eADesigner_Init         0x00001297  0x114  Code  Gb  main.o [1]
+exit                    0x00002e2b    0x8  Code  Gb  exit.o [3]
+hal_nrf_enable_ack_payload
+                        0x000025af   0x28  Code  Gb  hal_nrf.o [1]
+hal_nrf_enable_dynamic_payload
+                        0x00002587   0x28  Code  Gb  hal_nrf.o [1]
+hal_nrf_flush_rx        0x00002611   0x1e  Code  Gb  hal_nrf.o [1]
+hal_nrf_flush_tx        0x0000262f   0x1e  Code  Gb  hal_nrf.o [1]
+hal_nrf_get_address_width
+                        0x00002533    0xe  Code  Gb  hal_nrf.o [1]
+hal_nrf_get_clear_irq_flags
+                        0x000024f3   0x12  Code  Gb  hal_nrf.o [1]
+hal_nrf_get_rx_data_source
+                        0x00002603    0xe  Code  Gb  hal_nrf.o [1]
+hal_nrf_nop             0x0000264d   0x24  Code  Gb  hal_nrf.o [1]
+hal_nrf_read_multibyte_reg
+                        0x000026e1   0xbe  Code  Gb  hal_nrf.o [1]
+hal_nrf_read_reg        0x00002671   0x36  Code  Gb  hal_nrf.o [1]
+hal_nrf_read_rx_payload
+                        0x000025f5    0xe  Code  Gb  hal_nrf.o [1]
+hal_nrf_read_rx_payload_width
+                        0x000025eb    0xa  Code  Gb  hal_nrf.o [1]
+hal_nrf_rw              0x00002461   0x1a  Code  Lc  hal_nrf.o [1]
+hal_nrf_rx_fifo_empty   0x0000255f    0xe  Code  Gb  hal_nrf.o [1]
+hal_nrf_set_auto_retr   0x00002505   0x2e  Code  Gb  hal_nrf.o [1]
+hal_nrf_set_operation_mode
+                        0x0000247b   0x3c  Code  Gb  hal_nrf.o [1]
+hal_nrf_set_power_mode  0x000024b7   0x3c  Code  Gb  hal_nrf.o [1]
+hal_nrf_set_rf_channel  0x00002541   0x1e  Code  Gb  hal_nrf.o [1]
+hal_nrf_setup_dynamic_payload
+                        0x0000256d   0x1a  Code  Gb  hal_nrf.o [1]
+hal_nrf_write_multibyte_reg
+                        0x0000279f   0x9a  Code  Lc  hal_nrf.o [1]
+hal_nrf_write_reg       0x000026a7   0x3a  Code  Lc  hal_nrf.o [1]
+hal_nrf_write_tx_payload
+                        0x000025d7   0x14  Code  Gb  hal_nrf.o [1]
+is_reuse                0x2000005d    0x1  Data  Gb  radio.o [1]
+main                    0x00000ded  0x16e  Code  Gb  main.o [1]
+preCalc                 0x20000000   0x20  Data  Gb  stim.o [1]
+procPayload             0x2000005b    0x1  Data  Gb  radio.o [1]
+progPayload             0x20000028   0x20  Data  Gb  radio.o [1]
+radio_busy              0x2000005c    0x1  Data  Gb  radio.o [1]
+reprogStimTimers        0x00002021   0x30  Code  Gb  stim.o [1]
+startStim               0x0000215b    0xc  Code  Gb  stim.o [1]
+state_TXPKT             0x2000005a    0x1  Data  Gb  main.o [1]
+stopStim                0x0000214f    0xc  Code  Gb  stim.o [1]
+
+
+[1] = C:\Users\Omar\Dropbox\OGS-Closed-Loop\MCU Code\ARM stim_only\M3 STIM\blink\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+
+  11 176 bytes of readonly  code memory
+     944 bytes of readonly  data memory
+   1 118 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

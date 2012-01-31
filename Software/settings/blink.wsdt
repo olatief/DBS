@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>blink/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>148</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1161</ColumnWidth1><ColumnWidth2>309</ColumnWidth2><ColumnWidth3>77</ColumnWidth3></Build>
+      <TerminalIO/>
+    <Find-in-Files><ColumnWidth0>427</ColumnWidth0><ColumnWidth1>61</ColumnWidth1><ColumnWidth2>733</ColumnWidth2></Find-in-Files><Debug-Log><ColumnWidth0>21</ColumnWidth0><ColumnWidth1>1547</ColumnWidth1></Debug-Log></Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-19953-24202</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>blink</ExpandedNode><ExpandedNode>blink/CMSIS</ExpandedNode><ExpandedNode>blink/Drivers</ExpandedNode><ExpandedNode>blink/EFM32Lib</ExpandedNode><ExpandedNode>blink/Source</ExpandedNode><ExpandedNode>blink/Source/blink.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-28610-24244</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-5796-25900</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-7515-21346</Identity><TabName>Debug Log</TabName><Factory>Debug-Log</Factory><Session/></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\blink.c</Filename><XPos>0</XPos><YPos>43</YPos><SelStart>2250</SelStart><SelEnd>2250</SelEnd></Tab><ActiveTab>0</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\drivers\leds.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>2460</SelStart><SelEnd>2460</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\efm32lib\src\efm32_cmu.c</Filename><XPos>0</XPos><YPos>1017</YPos><SelStart>28516</SelStart><SelEnd>28516</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\efm32lib\inc\efm32_cmu.h</Filename><XPos>0</XPos><YPos>382</YPos><SelStart>5289</SelStart><SelEnd>5303</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\efm32lib\inc\efm32_emu.h</Filename><XPos>0</XPos><YPos>54</YPos><SelStart>2481</SelStart><SelEnd>2481</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-004cefd0><key>iaridepm.enu1</key></Toolbar-004cefd0></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>801</Bottom><Right>222</Right><x>-2</x><y>-2</y><xscreen>120</xscreen><yscreen>91</yscreen><sizeHorzCX>74673</sizeHorzCX><sizeHorzCY>90278</sizeHorzCY><sizeVertCX>139390</sizeVertCX><sizeVertCY>796627</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>162</Bottom><Right>1609</Right><x>-2</x><y>-2</y><xscreen>1611</xscreen><yscreen>164</yscreen><sizeHorzCX>1002489</sizeHorzCX><sizeHorzCY>162698</sizeHorzCY><sizeVertCX>74673</sizeVertCX><sizeVertCY>90278</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+
