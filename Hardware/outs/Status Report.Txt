@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PCB_Elec_stim.PcbDoc]
+   Generated File[PCB_Elec_stim.TXT]
+   Generated File[PCB_Elec_stim.DRL]
+   Generated File[PCB_Elec_stim.LDP]
+   Generated File[PCB_Elec_stim.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 11:53:59 AM On 2/6/2012
